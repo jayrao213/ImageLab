@@ -3,6 +3,8 @@
 ImageLab is a **full-stack image editing and processing platform** built using **Python (FastAPI)** on the backend and **Next.js (React + TypeScript)** on the frontend.  
 It originated as a **command-line BMP image editor** for *CS150 at Northwestern University* — but after the course ended, it was completely reimagined into a **modern, web-based, cloud-deployed application** with an expanded feature set, polished UI, and full Dockerization.
 
+Note: The live demo sometimes fails or runs out of memory because it’s hosted entirely on free tiers (Render, Hugging Face, Vercel) with very limited RAM, no GPU, and cold starts. You can clone the repo and run it locally for much faster and more reliable performance.
+
 ---
 
 ## 📖 Project History
