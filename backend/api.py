@@ -15,10 +15,10 @@ ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000").split(",
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[o.strip() for o in ALLOWED_ORIGINS if o.strip()],
-    allow_credentials=True,
+    allow_origins=["https://image-lab-alpha.vercel.app", "http://localhost:3000"],
     allow_methods=["*"],
     allow_headers=["*"],
+    allow_credentials=True,
 )
 
 def pil_to_internal(pil_img: PILImage.Image) -> Image:
