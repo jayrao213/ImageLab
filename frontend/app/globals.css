@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+/* Global input and form styling */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  @apply bg-[#0a0a0a] border-gray-700 text-white;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+  @apply ring-indigo-500 border-indigo-500;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply inline-flex cursor-pointer items-center justify-center rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-indigo-700 disabled:cursor-default disabled:opacity-50;
+}
+
+.btn-secondary {
+  @apply inline-flex cursor-pointer items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium text-gray-900 shadow-sm transition hover:bg-gray-200 disabled:cursor-default disabled:opacity-50;
+}
+
+/* Card/Section styling */
+.card {
+  @apply rounded-lg border border-gray-700 p-4 bg-[#0a0a0a];
+}
+
+/* Page container styling - ImageLab style */
+.page-container {
+  @apply mx-auto max-w-5xl p-4;
+}
+
+.content-box {
+  @apply rounded-lg border border-gray-700 p-6 bg-[#0a0a0a];
+}

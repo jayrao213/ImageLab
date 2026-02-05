@@ -1,0 +1,11 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+pymysql>=1.1.0
+boto3>=1.35.0
+python-multipart>=0.0.6
+tenacity>=8.2.3
+pillow
+requests
+PyJWT>=2.8.0
