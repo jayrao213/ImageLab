@@ -2,6 +2,10 @@
 
 **ImageLab** is a full-stack cloud photo management and editing platform that combines AWS-powered storage and AI labeling with advanced pixel-level image manipulation. Users can upload photos, browse AI-generated labels, search their library, and apply powerful transformations—all in a modern web interface.
 
+## Live Demo (Note: Demo may be offline due to AWS cost limits.)
+Frontend: https://image-lab-six.vercel.app  
+Backend API: https://imagelab-backend.onrender.com
+
 ---
 
 ## 📁 Project Structure
